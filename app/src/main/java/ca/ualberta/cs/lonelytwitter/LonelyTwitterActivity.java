@@ -178,7 +178,6 @@ public class LonelyTwitterActivity extends Activity {
 
 			fis.close();
 
-
 		} catch (FileNotFoundException e) {
 			tweetList = new ArrayList<Tweet>();
 		} catch (IOException e) {
